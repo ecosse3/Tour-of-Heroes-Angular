@@ -10,7 +10,7 @@ import { HeroService } from '../hero.service';
 export class HeroesComponent implements OnInit {
 
   heroes: Hero[];
-  selectedHero: Hero;
+  selectedHero: Hero; //dont need it anymore after updating heroes component to links (but I'll keep it)
 
   constructor(private heroService: HeroService) { }
 
@@ -18,7 +18,7 @@ export class HeroesComponent implements OnInit {
     this.getHeroes();
   }
 
-  onSelect(hero: Hero): void {
+  onSelect(hero: Hero): void { //dont need it anymore after updating heroes component to links (but I'll keep it)
     this.selectedHero = hero;
   }
 
