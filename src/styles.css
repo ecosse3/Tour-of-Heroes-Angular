@@ -23,6 +23,11 @@ button {
   font-family: Cambria, Georgia;
 }
 
+input {
+    border-radius: 3px;
+    padding: 5px;
+}
+
 /* everywhere else */
 * {
   font-family: Arial, Helvetica, sans-serif;
